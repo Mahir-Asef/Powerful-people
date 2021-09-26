@@ -1,0 +1,15 @@
+
+/* ================MAIN FORBES STYLING============== */
+
+.forbes{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding:0 10px;
+}
+.forbes-card{
+    width: 90%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+}
