@@ -19,7 +19,7 @@ const People = (props) => {
                 <h5>Profession :{Profession}</h5>
                 <h5>Annual Income :${annualIncome}</h5>
                 </div>
-                <button className="card-button" onClick={()=>props.handleAddToCart(props.people)}><FontAwesomeIcon icon={faUser} /> Select</button>
+                <button className="card-button" onClick={()=>props.handleAddToCart(props.people)}><FontAwesomeIcon icon={faUser} />  Select</button>
             </div>
     );
 };
